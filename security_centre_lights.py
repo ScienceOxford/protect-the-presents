@@ -2,6 +2,10 @@ from microbit import *
 import neopixel
 import radio
 
+# Please tag us if used!
+# We'd love to see what you make:
+# @ScienceOxford
+
 np = neopixel.NeoPixel(pin2, 18)
 
 radio.on()
