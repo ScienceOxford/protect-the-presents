@@ -1,5 +1,5 @@
 # protect-the-presents
-Files for the 1.5 hour Creative Computing Club, Operation Christmas Present
+Files for the 1.5 hour Creative Computing Club, Operation Christmas Present, and the 1.5 hour Maker Junior Club, Present Rescue
 
 *Developed by [ScienceOxford](https://scienceoxford.com) for educational purposes. Please give credit where applicable.
 <br>We love seeing what you've created, so tag us when you share! [@ScienceOxford](https://twitter.com/scienceoxford)*
