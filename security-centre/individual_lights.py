@@ -37,6 +37,11 @@ while True:
             for pixel in column:
                 np[pixel] = (60, 0, 0)
             display.show(Image.ANGRY)
+        
+        else:
+            for pixel in column:
+                np[pixel] = (60, 30, 0)
+            display.show(Image.CONFUSED)
 
         np.show()
         sleep(100)
