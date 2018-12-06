@@ -15,4 +15,5 @@ while True:
         sleep(500)
     else:
         radio.send('present 1 warning')
+        sleep(1)
         display.show(blink, delay=50)
