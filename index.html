@@ -98,12 +98,26 @@
     </video>
     <br>
     <br>
-    <p>how it works - break the circuit</p>
-    <p>how to connect it - micro:bit connections to the crocodile clips</p>
-    <p>how to code it - use correct pin</p>
-    <p>test it with two crocodile clips - what happens when they touch, what happens when you disconnect them?</p>
-    <p>now create you pressure sensor</p>
-    <img src=".\images\pressure-sensor-inside.jpg" alt="photo showing an example of a pressure sensor, as described in the instructions above" width="600px" height="auto">
+    <p>A pressure sensor works by having an electrical circuit, that is only complete when something heavy is put on it. If the heavy thing is moved, the circuit is broken (two wires do not touch any more).</p>
+    <p>If you put the micro:bit in the circuit, then it can tell whether the electricity is able to flow or not.</p>
+    <p>There are lots of ways that you could choose to set this up, but an example is described here for you to start with...</p>
+    <img src=".\images\pressure-sensor-wiring.PNG" alt="photo showing an example of a pressure sensor, as described in the instructions below" width="600px" height="auto">
+    <ol>
+        <li>Tape conductive tape in a line on two seperate pieces of paper - leave some hanging off the edge.</li>
+        <li>Fold in the edges of one of the pieces of paper, parallel to the piece of tape.</li>
+        <li>Connect one crocodile clip between one piece of tape and the micro:bit's Pin0.</li>
+        <li>Connect another crocodile clip between one piece of tape and the micro:bit's 3V pin.</li>
+        <li>The folder piece of paper is your bottom piece. Turn the other piece of paper upside down, and put it on top, so that the two pieces of tape form a cross shape (see below picture).</li>
+        <li>Put something heavy on top of the paper.</li>
+    </ol>
+    <img src=".\images\pressure-sensor-tape-cross.jpg" alt="photo showing the inside of the pressure sensor, with two pieces of tape in a cross shape, as described above" width="600px" height="auto">
+    <br>
+    <p>Try this code example:</p>
+    <pre>while True:
+    if pin0.read_digital() == 1:
+        display.show(Image.HEART)
+    else:
+        display.show(Image.ANGRY)</pre>
     <br>
   </div>
 
